@@ -1,6 +1,6 @@
 # Select False if you intend to run CPAC on a single machine.
 # If set to True, CPAC will attempt to submit jobs through the job scheduler / resource manager selected below.
-runOnGrid :  True
+runOnGrid :  False
 
 
 # Full path to the FSL version to be used by CPAC.
@@ -47,7 +47,7 @@ workingDirectory :  /mnt/working
 
 
 # Directory where CPAC should write crash logs.
-crashLogDirectory :  /home/ubuntu/crashes
+crashLogDirectory :  /cfarhomes/mtang/crashes
 
 
 # Directory where CPAC should place processed data.
